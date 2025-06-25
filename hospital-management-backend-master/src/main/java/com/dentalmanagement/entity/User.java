@@ -1,6 +1,5 @@
 package com.dentalmanagement.entity;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,8 +9,6 @@ import org.springframework.beans.BeanUtils;
 
 import com.dentalmanagement.dto.DoctorRegisterDto;
 import com.dentalmanagement.dto.UserLoginResponse;
-
-import lombok.Data;
 
 @Entity
 public class User {
